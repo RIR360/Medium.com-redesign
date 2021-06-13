@@ -16,5 +16,5 @@ Clone this repo into your editor, write codes and carefully create a pull reques
 * Don't get behind. Update your forked repo frequently.
 
 ## Contributors
-<!-- // Write your names here -->
+<!-- // Write your name here -->
 * Rejwan Islam Rizvy
