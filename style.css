@@ -1,3 +1,40 @@
 body {
     background-color: transparent;
 }
+
+/* section 3 starts here */
+
+.post{
+    display: flex;
+}
+.post .post-no{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(230, 230, 230, 1);
+    margin-top: -10px;
+}
+.post .post-details{
+    margin-left: 20px;
+    margin-top:  15px;
+}
+.post .author{
+    display: flex;
+    margin-left: 5px;
+}
+.post .author a{
+    margin-left: 5px;
+}
+.post .post-details  p{
+    font-size: 12px;
+    color: rgba(41, 41, 41, 1);
+}
+.post  a{
+    text-decoration: none;
+    color: black;
+}
+.post h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* section 3 ends here */
