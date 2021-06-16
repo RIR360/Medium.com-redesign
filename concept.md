@@ -5,6 +5,4 @@
 ![image](https://user-images.githubusercontent.com/50569315/121794249-85c57300-cc28-11eb-9078-a7bc4c21a231.png)
 
 ## Website screenshots
-![image](https://user-images.githubusercontent.com/50569315/122255223-bd197580-ceef-11eb-808a-602bc51a4382.png)
-![image](https://user-images.githubusercontent.com/50569315/122255313-d1f60900-ceef-11eb-9168-788a644984cd.png)
-![image](https://user-images.githubusercontent.com/50569315/122255394-e20de880-ceef-11eb-9eff-b74c3747a6e1.png)
+![image](https://user-images.githubusercontent.com/50569315/122258981-79286f80-cef3-11eb-8753-7b870e74f008.png)
