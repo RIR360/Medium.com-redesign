@@ -1,40 +1,119 @@
-body {
-    background-color: transparent;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+body {
+  background-color: transparent;
+}
+:root {
+  --desc: #697080;
+}
+a {
+  text-decoration: none;
+}
 /* section 3 starts here */
 
-.post{
-    display: flex;
+.post {
+  display: flex;
 }
-.post .post-no{
-    font-size: 30px;
-    font-weight: bold;
-    color: rgba(230, 230, 230, 1);
-    margin-top: -10px;
+.post .post-no {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(230, 230, 230, 1);
+  margin-top: -10px;
 }
-.post .post-details{
-    margin-left: 20px;
-    margin-top:  15px;
+.post .post-details {
+  margin-left: 20px;
+  margin-top: 15px;
 }
-.post .author{
-    display: flex;
-    margin-left: 5px;
+.post .author {
+  display: flex;
+  margin-left: 5px;
 }
-.post .author a{
-    margin-left: 5px;
+.post .author a {
+  margin-left: 5px;
 }
-.post .post-details  p{
-    font-size: 12px;
-    color: rgba(41, 41, 41, 1);
+.post .post-details p {
+  font-size: 12px;
+  color: rgba(41, 41, 41, 1);
 }
-.post  a{
-    text-decoration: none;
-    color: black;
+.post a {
+  text-decoration: none;
+  color: black;
 }
-.post h3{
-    font-size: 16px;
-    font-weight: bold;
+.post h3 {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* section 3 ends here */
+/* Section 4 start */
+section.container {
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: 1000px 400px;
+}
+section .posts .row {
+  display: flex;
+  justify-content: space-around;
+}
+section .posts .row:not(:last-child) {
+  margin-bottom: 50px;
+}
+section .posts .row .article {
+  width: 600px;
+}
+section .posts .row .profile {
+  width: 400px;
+}
+section .posts .row .article .heading h3 {
+  font-weight: 500;
+}
+section .posts .row .article .topic p {
+  display: inline-block;
+  padding-left: 0.5rem;
+}
+section .posts .row .article .topic span {
+  color: var(--desc);
+}
+section .posts .row .article .description {
+  color: var(--desc);
+}
+section .posts .row .article .information {
+  display: flex;
+  justify-content: space-between;
+  color: var(--desc);
+}
+section .posts .row .article .information .readTime img {
+  padding: 0 10px 3px;
+  height: 15px;
+}
+section .posts .row .profile img {
+  height: 180px;
+  width: 280px;
+}
+section .topic-list {
+  height: 400px;
+}
+section .topic-list h3 {
+  font-size: 18px;
+  padding-bottom: 1rem;
+}
+section .topic-list .topics a {
+  color: var(--desc);
+  padding: 5px 20px;
+  border: 1px solid var(--desc);
+  border-radius: 5px;
+  margin: 5px 0;
+  display: inline-block;
+  font-size: 15px;
+}
+section .topic-list .routes a {
+  color: var(--desc);
+  padding: 10px;
+  font-weight: 400;
+}
+/* Section 4 end */
