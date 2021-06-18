@@ -46,20 +46,6 @@ body {
     padding: 10px 30px;
     font-size: 18px;
 }
-
-
-@media (max-width: 1400px) {
-    .section-2-col-2{
-        width: 100%;
-    }
-}
-
-@media (max-width: 1200px) {
-    .section-2-col-2{
-        width: 50%;
-    }
-}
-
 @media (max-width: 1050px) {
     .section-2-col-2{
         width: 20%;
@@ -72,6 +58,7 @@ body {
         display: none;
     }
 }
+
 
 /* End of section 2 */
 
