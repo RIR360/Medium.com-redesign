@@ -2,13 +2,28 @@ body {
     background-color: transparent;
 }
 
+/* theme colors */
+.m_primary {
+    background-color: #FFC017;
+    color: rgb(41, 41, 41);
+}
+
+/* custom styles */
+.ff_serif {
+    font-family: serif;
+}
+.hero_btn {
+    border-radius: 20px;
+}
+
 /* start of section 1 */
+/* End of section 1 */
+
+/* start of section 2 */
 .section-1to2-container{
     background-color: #FFC017;
     padding-bottom: 35px;
 }
-/* End of section 1 */
-/* start of section 2 */
 .section-2-btn{
     background-color: transparent;
 }
