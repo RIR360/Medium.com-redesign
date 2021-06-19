@@ -74,6 +74,16 @@ body {
     }
 }
 
+@media (max-width: 900px) {
+    .section-2-col-1{
+        text-align: center;
+    }
+    .section-2-container{
+        background-image: none;
+    }
+}
+
+
 
 /* End of section 2 */
 
