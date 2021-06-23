@@ -1,3 +1,4 @@
+/* Element Styles */
 body {
     background-color: transparent;
 }
@@ -10,23 +11,8 @@ p {
     margin-bottom: auto;
 }
 
-/* theme colors */
+/* Theme colors */
 .m_primary {
     background-color: #FFC017;
     color: rgb(41, 41, 41);
 }
-
-/* custom styles */
-.ff_serif {
-    font-family: serif;
-}
-.hero_btn {
-    border-radius: 20px;
-}
-.deco-none {
-    text-decoration: none;
-}
-.deco-none * {
-    text-decoration: none;
-}
-
