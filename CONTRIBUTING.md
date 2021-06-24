@@ -20,4 +20,3 @@ Clone this repo into your editor, write codes and carefully create a pull reques
 * Rejwan Islam Rizvy
 * Md. Saadman Galib Rabbi
 * Soikat Hossain
-* Md. Maruf Sarker
