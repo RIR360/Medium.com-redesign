@@ -8,3 +8,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #FFC017;
     color: rgb(41, 41, 41);
 }
+
+/* custom css */
+/* use less css possible */
+.member_footer {
+    background: url("images/Membership_Footer.svg") no-repeat bottom;
+}
