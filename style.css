@@ -14,16 +14,3 @@ h1, h2, h3, h4, h5, h6 {
 .member_footer {
     background: url("images/Membership_Footer.svg") no-repeat bottom;
 }
-
-/* Sign in */
-.input-container{
-    width: 255px;
-}
-
-.sign-in-last-text{
-    color: rgb(117, 117, 117);
-}
-
-.sign-in-img{
-    width:16px;
-}
