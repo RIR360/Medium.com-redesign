@@ -1,4 +1,5 @@
-
+const
+smooth_divs = document.querySelectorAll('.smooth');
 
 var
 screen_h = $(window).height(),
@@ -57,4 +58,8 @@ $(window).scroll(e => {
         load(3);
     }
 
+});
+
+smooth_divs.forEach(div => {
+    div.style.transition = "all 0.3s ease";
 });
