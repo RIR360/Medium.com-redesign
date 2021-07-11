@@ -3,12 +3,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: serif;
 }
 
-/* Theme colors */
-.m_primary {
-    background-color: #FFC017;
-    color: rgb(41, 41, 41);
-}
-
 /* custom css */
 /* use less css possible */
 .member_footer {
