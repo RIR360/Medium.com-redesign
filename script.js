@@ -50,7 +50,7 @@ function load(amount) {
 
 
 // infinite post effect
-$(window).scroll(e => {
+$(window).scroll(function() {
 
     doc_h = $(document).height();
     dif = doc_h - screen_h - 100;
@@ -64,12 +64,12 @@ $(window).scroll(e => {
 });
 
 // set transition property for elements with smooth class
-smooth_divs.forEach(elem => {
+smooth_divs.forEach(function(elem) {
     elem.style.transition = "all 0.3s ease";
 });
 
 // set headers font family to serif
-headers.forEach(elem => {
+headers.forEach(function(elem) {
     elem.style.fontFamily = "serif";
 });
 
