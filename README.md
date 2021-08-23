@@ -14,6 +14,8 @@ It is a redesign of the popular blogging website "Medium.com". The website is no
 
 ## Preview:
 
+### Watch the [video on this.](https://youtu.be/iwtuVF8A8so)
+
 <p>
   <img src="" alt=""></img>
   <img src="" alt=""></img>
